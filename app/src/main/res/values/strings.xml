@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Modules</string>
+    <string name="firstModule">C105 Introduction to Programming</string>
+    <string name="secondModule">C203 Web Appln Development in php</string>
+    <string name="thirdModule">C206 Software Development Process</string>
+    <string name="fourthModule">C218 UI/UX Design for Apps</string>
+    <string name="fifthModule">C346 Mobile App Development</string>
+    <string name="firstModuleCode">Module Code: C105</string>
+    <string name="secondModuleCode">Module Code: C203</string>
+    <string name="thirdModuleCode">Module Code: C206</string>
+    <string name="fourthModuleCode">Module Code: C218</string>
+    <string name="fifthModuleCode">Module Code: C346</string>
+    <string name="firstModuleName">Module Name: Introduction to Programming</string>
+    <string name="secondModuleName">Module Name: Web Appln Development in php</string>
+    <string name="thirdModuleName">Module Name: Software Development Process</string>
+    <string name="fourthModuleName">Module Name: UI/UX Design for Apps</string>
+    <string name="fifthModuleName">Module Name: Mobile App Development</string>
+    <string name="firstModuleVenue">Venue: W64R</string>
+    <string name="secondModuleVenue">Venue: W65H</string>
+    <string name="thirdModuleVenue">Venue: E66J</string>
+    <string name="fourthModuleVenue">Venue: E66B</string>
+    <string name="fifthModuleVenue">Venue: E62E</string>
+</resources>
