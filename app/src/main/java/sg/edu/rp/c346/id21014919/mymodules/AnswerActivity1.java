@@ -4,11 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class AnswerActivity1 extends AppCompatActivity {
 
     TextView tvModule;
+    Button btnBack;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +20,7 @@ public class AnswerActivity1 extends AppCompatActivity {
         setContentView(R.layout.activity_answer1);
 
         tvModule = findViewById(R.id.textView);
+        btnBack = findViewById(R.id.btnBack);
 
         Intent intentReceived = getIntent();
         String moduleSelected = intentReceived.getStringExtra("Module");
@@ -50,6 +55,15 @@ public class AnswerActivity1 extends AppCompatActivity {
                 + "\n" + "\n" +"Semester: 1" + "\n" + "\n" + "Module Credit: 4" + "\n" +
                 "\n" + msg3);
 
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                finish();
+
+            }
+        });
 
     }
+
 }
